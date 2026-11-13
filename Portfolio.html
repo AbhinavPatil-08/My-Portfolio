@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav Bochare | Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">&lt;/&gt; Abhinav Bochare</div>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#education" class="nav-item">Education</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#hobbies" class="nav-item">Hobbies</a></li>
+        <li><a href="#achievements" class="nav-item">Achievements</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
+        <button id="menu-btn" class="menu-btn">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <div class="profile-pic">
+
+        <img src="/Users/abhinav/Documents/Portfolio/tengen-jujutsu-kaisen-4k-xn.jpg" alt="Abhinav Bochare">
+      </div>
+      <div class="intro-text">
+        <p class="greeting">Hello Visitors! 👋</p>
+        <h1>Hi, I'm <span class="highlight">Abhinav Bochare</span></h1>
+        <h3>First-Year Computer Science and AIML Student</h3>
+        <p class="welcome-msg">
+          Welcome to my personal portfolio website! Explore my academic journey, skills, and the projects I am building as I start my path in Artificial Intelligence and Machine Learning.
+        </p>
+        <div class="home-btns">
+          <a href="#about" class="btn primary-btn">About Me</a>
+          <a href="#projects" class="btn secondary-btn">View Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="card about-card">
+      <p>
+        I am Abhinav Bochare, a First-Year Computer Science and AIML student at Bosscoder School of Technology (S-Vyasa). I enjoy mathematics, problem-solving, and building helpful software applications using web technologies and AI.
+      </p>
+      <div class="about-details">
+        <div class="detail-box">
+          <h4>🤖 Area of Interest</h4>
+          <p>Artificial Intelligence, Machine Learning & Web Development</p>
+        </div>
+        <div class="detail-box">
+          <h4>🎯 Personal Goal</h4>
+          <p>To become a skilled Machine Learning Engineer and build intelligent real-world solutions.</p>
+        </div>
+        <div class="detail-box">
+          <h4>✨ Hobbies</h4>
+          <p>Coding, Problem Solving, Reading & Music</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="cards-container">
+      <div class="card">
+        <span class="badge">2026 - Present</span>
+        <h3>B.Tech in Computer Science & AIML</h3>
+        <p class="institution">Bosscoder School of Technology (S-Vyasa)</p>
+        <p>First-Year Undergraduate Student | Department of Computer Science & Artificial Intelligence</p>
+      </div>
+
+      <div class="card">
+        <span class="badge">Completed</span>
+        <h3>Higher Secondary Education (Class XII)</h3>
+        <p class="institution">Senior Secondary School</p>
+        <p>Focused on Mathematics and Computer Fundamentals</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+
+      <div class="card">
+        <h3>Technical & Core Skills</h3>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Mathematics</span><span>92%</span></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 92%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Web Development (HTML/CSS/JS)</span><span>90%</span></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Python & AIML Basics</span><span>75%</span></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 75%;"></div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Non-Technical Skills</h3>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Communication</span><span>85%</span></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Teamwork (Hackathon Collaboration)</span><span>85%</span></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Analytical Thinking</span><span>90%</span></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 90%;"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="cards-container">
+      <div class="card project-card">
+        <img src="https://via.placeholder.com/300x160" alt="AI Medicine Reminder Screenshot">
+        <h3>AI Medicine Reminder Software</h3>
+        <p>A group hackathon project that uses AI to help people remember to take their medicines on time.</p>
+        <p class="tech-used"><strong>Tech:</strong> AI Concepts, Python, Web Technologies</p>
+        <button class="btn primary-btn" onclick="showProjectDetails('AI Medicine Reminder Software', 'Developed as a team project during the Bosscoder School of Technology (S-Vyasa) internal hackathon to assist patients and elderly users with timely medication alerts.')">View Details</button>
+      </div>
+
+      <div class="card project-card">
+        <img src="https://via.placeholder.com/300x160" alt="Portfolio Screenshot">
+        <h3>Personal Portfolio Website</h3>
+        <p>A responsive personal portfolio website built from scratch to showcase my skills, education, and projects.</p>
+        <p class="tech-used"><strong>Tech:</strong> HTML5, CSS3, JavaScript</p>
+        <button class="btn primary-btn" onclick="showProjectDetails('Personal Portfolio Website', 'Includes Dark/Light mode toggle, smooth navigation, skill progress bars, and interactive JavaScript form validation.')">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="hobbies" class="section">
+    <h2 class="section-title">Hobbies & Interests</h2>
+    <div class="cards-container">
+      <div class="card hobby-card">
+        <div class="hobby-icon">🧮</div>
+        <h3>Solving Math Puzzles</h3>
+        <p>I enjoy working through logical and mathematical problems that build the foundation for Machine Learning.</p>
+      </div>
+      <div class="card hobby-card">
+        <div class="hobby-icon">💻</div>
+        <h3>Building Web Apps</h3>
+        <p>Experimenting with clean layouts and interactive features using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card hobby-card">
+        <div class="hobby-icon">🎧</div>
+        <h3>Music & Reading</h3>
+        <p>Listening to music and reading about new advancements in Artificial Intelligence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" class="section">
+    <h2 class="section-title">Achievements & Milestones</h2>
+    <div class="cards-container">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x140" alt="Hackathon Participation">
+        <span class="badge">2026</span>
+        <h3>College Internal Hackathon</h3>
+        <p>Collaborated in a team to build an AI-based Medicine Reminder software at Bosscoder School of Technology (S-Vyasa).</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x140" alt="AIML Journey">
+        <span class="badge">2026 - Present</span>
+        <h3>Started CS & AIML Journey</h3>
+        <p>Currently building foundational skills in web development, programming, and mathematics—more milestones coming soon!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-container">
+      <div class="card contact-info">
+        <h3>Get In Touch</h3>
+        <p>Feel free to connect with me for hackathons, study groups, or project ideas!</p>
+        <p><strong>📧 Email:</strong> abc@gmail.com</p>
+        <p><strong>🎓 College:</strong> Bosscoder School of Technology (S-Vyasa)</p>
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" class="btn secondary-btn">GitHub Profile</a>
+          <a href="https://linkedin.com/" target="_blank" class="btn secondary-btn">LinkedIn Profile</a>
+        </div>
+      </div>
+
+      <div class="card contact-form-card">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="text" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+          <p id="formMessage" class="form-feedback"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Abhinav Bochare | Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="Portfolio.js"></script>
+</body>
+</html>
